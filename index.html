@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/977b193dda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>tapsi</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="d-1-nav">
+            <a href="#">تپسی</a>
+            <i class="fas fa-align-right"></i>
+        </div>
+
+
+        <div class="d-2-nav">
+            <ul>
+                <li><a href="#">پشتیبانی</a></li>
+                <li><a href="#">معرفی راننده</a></li>
+                <li><a href="#">خدمات کسب و کارها</a></li>
+                <li><a href="#">فرصت های شغلی</a></li>
+                <li><a href="#">وبلاگ</a></li>
+                <li><a href="#" class="download-tapsi">دانلود تپسی</a></li>
+            </ul>
+
+        </div>
+
+        <i class="	fa fa-navicon" onclick="burgermenu()" id="i-navbar"></i>
+
+        <div class="burger-menu" id="burger-menu">
+            <ul>
+                <li><a href="#">وبلاگ</a></li>
+                <li><a href="#">فرصت های شغلی</a></li>
+                <li><a href="#">خدمات کسب و کارها</a></li>
+                <li><a href="#">معرفی راننده</a></li>
+                <li><a href="#">پشتیبانی</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="d-1-header">
+            <h1>تپسی</h1>
+            <p>اپلیکیشن درخواست خودرو و پیک</p>
+            <div class="i-d-1-header">
+                <div><i class="material-icons">arrow_downward</i><a href="#">دانلود اپلیکیشن مسافران</a></div>
+                <div><i class="material-icons"> touch_app</i><a href="#">وب اپلیکیشن مسافران</a></div>
+                <div><i class="material-icons">arrow_downward</i><a href="#">دانلود اپلیکیشن رانندگان</a></div>
+                <div><i class="fas fa-car"></i><a href="#">ثبت‌نام راننده</a></div>
+            </div>
+
+        </div>
+
+        <div class="d-2-header">
+            <img src="img/mockup-phone.webp" alt="">
+        </div>
+    </header>
+
+
+    <main>
+        <section class="sec-1">
+            <h1>سرویس‌های تپسی</h1>
+            <div class="d-1-sec-1">
+                <div onclick="showdetails1()">
+                    <img src="img/cc-classic.png" alt="" id="img-1-details">
+                    <p>تپسی کلاسیک</p>
+                </div>
+                <div onclick="showdetails2()">
+                    <img src="img/cc-motopeyk.png" alt="" id="img-2-details">
+                    <p>موتوپیک</p>
+                </div>
+                <div onclick="showdetails3()">
+                    <img src="img/cc-autopeyk.png" alt="" id="img-3-details">
+                    <p>اتوپیک</p>
+                </div>
+                <div onclick="showdetails4()">
+                    <img src="img/cc-plus.png" alt="" id="img-4-details">
+                    <p>تپسی پلاس</p>
+                </div>
+                <div onclick="showdetails5()">
+                    <img src="img/cc-tel.png" alt="" id="img-5-details">
+                    <p>تپسی تلفنی</p>
+                </div>
+                <div onclick="showdetails6()">
+                    <img src="img/cc-hamyar.png" alt="" id="img-6-details">
+                    <p>همیار</p>
+                </div>
+                <div onclick="showdetails7()">
+                    <img src="img/cc-hamkhat.png" alt="" id="img-7-details">
+                    <p>هم‌خط</p>
+                </div>
+                <div onclick="showdetails8()">
+                    <img src="img/cc-taxi.png" alt="" id="img-8-details">
+                    <p>تاکسی</p>
+                </div>
+                <div onclick="showdetails9()">
+                    <img src="img/cc-line.png" alt="" id="img-9-details">
+                    <p>تپسی لاین</p>
+                </div>
+            </div>
+
+            <div class="d-2-sec-1">
+                <div>
+                    <h2 id="h2-matn-details">تپسی کلاسیک</h2>
+                    <p id="p-matn-details">با سرویس کلاسیک تپسی، یک خودروی اختصاصی برای رسیدن به مقصدتان دارید. تپسی
+                        کلاسیک، راهی سریع و
+                        آسان برای سفرهای درون‌شهری در هر ساعتی از روز است. در این سرویس، شما امکان تعیین دو یا چند مقصد
+                        و همچنین توقف در مسیر را دارید.</p>
+                </div>
+                <div>
+                    <img src="img/illus-classic.webp" alt="" id="img-details">
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="sec-2">
+
+            <div class="d-2-sec-2">
+                <img src="img/i-mac.webp" alt="">
+            </div>
+
+            <div class="d-1-sec-2">
+                <h2>خدمات تپسی ویژه کسب‌وکارها</h2>
+                <p>پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست هم‌زمان تعداد نامحدودی خودرو و پیک
+                    را برای کسب‌وکارها و سازمان‌ها فراهم می‌کند. و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
+                    ارسال کالاهای خود را به سادگی مدیریت کنید.</p>
+                <div><a href="#">اطلاعات بیشتر سرویس سازمانی</a><i class="material-icons">chevron_left</i></div>
+                <a href="#">ورود و ثبت نام پنل سازمانی</a>
+            </div>
+
+        </section>
+
+        <section class="sec-3">
+
+            <div class="d-2-sec-2">
+                <img src="img/macbook.webp" alt="">
+            </div>
+
+            <div class="d-1-sec-2">
+                <h2>خرید کد اعتبار تپسی</h2>
+                <p>کاربران، کسب‌وکارها و سازمان‌ها می‌توانند به تعداد و مبلغ مورد نظرشان، کد اعتبار یا کد تخفیف تپسی
+                    تهیه کرده، برای خود، پرسنل و یا مشتریانشان استفاده کنند و از تخفیف‌های ویژه تپسی نیز بهره‌مند شوند.
+                    این کدها امکان سفارشی‌سازی بر اساس مبدا، مقصد، زمان، درصد و مبلغ را دارند.</p>
+
+                <a href="#">خرید کد اعتبار و تخفیف</a>
+            </div>
+
+
+        </section>
+
+        <section class="sec-4">
+            <div class="d-sec-4">
+                <h4>بسته امنیت سفر</h4>
+                <p>امکانات ویژه امنیت سفر، شامل اشتراک سفر و پشتیبانی ۲۴ ساعته تیم متخصصین امنیت تپسی</p>
+            </div>
+            <div class="khat-amodi"></div>
+            <div class="d-sec-4">
+                <h4>درخواست تلفنی</h4>
+                <p>امکان درخواست خودرو بدون نیاز به اینترنت و اپلیکیشن، از طریق تماس با شماره ۱۶۳۰</p>
+
+            </div>
+            <div class="khat-amodi"></div>
+            <div class="d-sec-4">
+                <h4>دسترس‌پذیری برای توان‌یابان</h4>
+                <p>امکان استفاده کاربران نابینا و ناشنوا از اپلیکیشن تپسی و عدم کسر کمیسیون از سفر مسافران ویلچردار</p>
+            </div>
+            <div class="khat-amodi"></div>
+            <div class="d-sec-4">
+                <h4>امکانات هوشمند</h4>
+                <p>سهولت استفاده از اپلیکیشن با پیشنهاد مبدا و مقصد سفر، مقاصد منتخب و پیشنهادهای ویژه شما</p>
+            </div>
+
+
+        </section>
+
+        <section class="sec-5">
+
+            <div class="d-2-sec-5">
+                <img src="img/driver.webp" alt="">
+            </div>
+            <div class="d-1-sec-5">
+
+                <div>
+                    <h1>مزایای تپسی برای رانندگان تاکسی اینترنتی</h1>
+                    <p>رانندگان (سفیران) به‌عنوان همکاران تپسی، جایگاه ویژه‌ای برای شرکت دارند. به همین‌دلیل مزایای
+                        مختلفی برای آنها در نظر گرفته شده است.</p>
+                </div>
+                <div>
+                    <h3>کسب درآمد روزانه، پایدار و بدون محدودیت</h3>
+                    <p>۱. امکان تسویه‌ی اعتبار در هر ساعت از شبانه‌روز</p>
+                    <p>۲. طرح‌های تشویقی، ماموریت‌ها‌، پاداش و اعطای وام‌های قرض‌الحسنه به‌طور دوره‌ای</p>
+                    <p>۳. نمایش مکان‌های پردرخواست در اپلیکیشن و دریافت سفرهای طلایی</p>
+                </div>
+                <div>
+                    <h3>تضمین امنیت و پشتیبانی رانندگان</h3>
+                    <p>۱. پشتیبانی ۲۴ ساعته</p>
+                    <p>۲. امکانات امنیت سفر شامل تماس اضطراری با واحد امنیت و پشتیبانی ۲۴ ساعته تیم امنیت</p>
+                </div>
+                <div>
+                    <h3>واریز سهمیه بنزین ویژه رانندگان تپسی</h3>
+                    <p>۱. نمایش میزان پیمایش ماهانه درون اپلیکیشن</p>
+                    <p>۲. محاسبه‌ی مسافت طی شده تا مسافر در پیمایش</p>
+                </div>
+                <div>
+
+                    <div class="d-b-ranandetapsi">
+                        <h3>استفاده از مزایای</h3>
+                        <h3><a href="#" class="b-ranandetapsi">باشگاه رانندگان تپسی</a></h3>
+                    </div>
+                    <p>۱. تخفیف روی خدمات خودرو مانند بیمه، سرویس‌های دوره‌ای، خرید لاستیک و ...</p>
+                    <p>۲. تخفیف روی خدمات رفاهی مانند وام قرض‌الحسنه، خدمات درمانی، خرید اقساطی و ...</p>
+                </div>
+                <div class="d-a-sec-5">
+                    <div><a href="#" class="a-sec-5">ثبت نام راننده تاکسی آنلاین</a></div>
+                    <div><a href="#" class="a-sec-5">دانلود برنامه تپسی راننده</a></div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section class="sec-6">
+            <h1>تازه‌ترین‌های وبلاگ تپسی</h1>
+            <section>
+                <div class="d-sec-6">
+                    <img src="img/etehadie-no-logo-scaled.jpg" alt="">
+                    <h4>دومین دوره انتخابات اتحادیه کسب و کارهای مجازی</h4>
+                    <div class="p-sec-6">
+                        <p>دیدگاه و اهداف میلاد منشی‌پور، کاندیدای دومین دوره انتخابات اتحادیه کسب و کارهای مجازی
+                            درباره‌ من
+                            من
+                            میلاد منشی پور، مدیرعامل و هم بنیان‌گذار تپسی هستم؛ سال 1394 پس از یک دهه فعالیت در خارج از
+                            کشور
+                            در
+                            حوزه مشاوره مدیریت، به ایران برگشتم و به همراه دو نفر از دوستانم، سامانه درخواست آنلاین
+                            خودرو
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-sec-6">
+                    <img src="img/A68CB9F1-AA36-4B75-99B7-DE475A5FFBDF.jpeg" alt="">
+                    <h4>تخفیف ویژه دیجی‌کالا جت برای کاربران تپسی</h4>
+                    <div class="p-sec-6">
+                        <p>سوپرمارکت آنلاین «دیجی‌کالا جت» با ارسال سریع محصولات سوپرمارکتی شروع به کار کرده است و
+                            سفارش‌های
+                            آنلاین سوپرمارکتی را از فروشگاه‌های زنجیره‌ای معتبر و یا فروشگاه‌های منتخب شهرهای تهران،
+                            کرج،
+                            اصفهان، قم و مشهد تامین می‌کند. این مجموعه برای شما کاربران تپسی تخفیف ویژه‌ای درنظر گرفته
+                            است و
+                            با
+                            استفاده از کد زیر می‌توانید برای</p>
+                    </div>
+                </div>
+
+                <div class="d-sec-6">
+                    <img src="img/blog2-scaled.jpg" alt="">
+                    <h4>برای دریافت دز سوم واکسن، با تخفیف به مراکز واکسیناسیون بروید!</h4>
+                    <div class="p-sec-6">
+                        <p>تپسی با همراهی شرکت سیناژن (تولیدکننده واکسن اسپایکوژن) برای رفتن به مراکز واکسیناسیون و
+                            تزریق دز
+                            سوم، تخفیف ویژه برایتان درنظر گرفته است. دیگر چیزی به نوروز باقی نمانده و این روزهای پایانی
+                            سال
+                            همه
+                            ما در تکاپو هستیم تا کارهای ناتمام را تمام کنیم و تعطیلات سال نو را با خاطری آسوده در کنار
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+        <section class="sec-7">
+            <h1>تپسی در ایران</h1>
+            <section>
+
+                <ul>
+                    <li>
+                        <p>تهران</p>
+                        <p>Tehran</p>
+                    </li>
+                    <li>
+                        <p>انزلی</p>
+                        <p>Anzali</p>
+                    </li>
+                    <li>
+                        <p>قائم‌شهر</p>
+                        <p>Qaem Shahr</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>کرج</p>
+                        <p>Karaj</p>
+                    </li>
+                    <li>
+                        <p>تبریز</p>
+                        <p>Tabriz</p>
+                    </li>
+                    <li>
+                        <p>آمل</p>
+                        <p>Amol</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>مشهد</p>
+                        <p>Mashhad</p>
+                    </li>
+                    <li>
+                        <p>ساری</p>
+                        <p>Sari</p>
+                    </li>
+                    <li>
+                        <p>کرمانشاه</p>
+                        <p>Kermanshah</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>اصفهان</p>
+                        <p>Isfahan</p>
+                    </li>
+                    <li>
+                        <p>یزد</p>
+                        <p>Yazd</p>
+                    </li>
+                    <li>
+                        <p>گرگان</p>
+                        <p>Gorgan</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>شیراز</p>
+                        <p>Shiraz</p>
+                    </li>
+                    <li>
+                        <p>کرمان</p>
+                        <p>Kerman</p>
+                    </li>
+                    <li>
+                        <p>قزوین</p>
+                        <p>Qazvin</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>ارومیه</p>
+                        <p>Urmia</p>
+                    </li>
+                    <li>
+                        <p>قم</p>
+                        <p>Qom</p>
+                    </li>
+                    <li>
+                        <p>اراک</p>
+                        <p>Arak</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>لاهیجان</p>
+                        <p>Lahijan</p>
+                    </li>
+                    <li>
+                        <p>اهواز</p>
+                        <p>Ahvaz</p>
+                    </li>
+                    <li>
+                        <p>نیشابور</p>
+                        <p>Neyshabur</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>رشت</p>
+                        <p>Rasht</p>
+                    </li>
+                    <li>
+                        <p>بابل</p>
+                        <p>Babol</p>
+                    </li>
+                </ul>
+
+            </section>
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+        <section class="secs-footer">
+            <div>
+                <img src="img/tapsi-logo-white.svg" alt="">
+                <p>اپلیکیشن درخواست خودرو و پیک</p>
+                <p id="p-hoghogh">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
+            </div>
+            <div class="shabake-ejtemaii">
+                <p id="p-hoghogh">تپسی در شبکه‌های اجتماعی</p>
+                <ul id="i-footer">
+                    <li><a href="#"><i class="	fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="	fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="	fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="	fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="	fab fa-telegram-plane"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="secs-footer">
+            <h3>تپسی</h3>
+            <ul>
+                <li><a href="">وبلاگ تپسی</a></li>
+                <li><a href="">فرصت شغلی</a></li>
+                <li><a href="">تماس با ما</a></li>
+                <li><a href="#">لوگو و هویت سازمانی</a></li>
+                <li><a href="#">معرفی راننده به تپسی</a></li>
+            </ul>
+        </section>
+
+        <section class="secs-footer">
+            <h3>مسافران</h3>
+            <ul>
+                <li><a href="#">دانلود اپ مسافر</a></li>
+                <li><a href="#">نسخه وب تپسی</a></li>
+                <li><a href="#">پرسش‌های متداول مسافران</a></li>
+                <li><a href="#">شرایط و قوانین مسافران</a></li>
+                <li><a href="#">باشگاه مشتریان</a></li>
+            </ul>
+        </section>
+
+        <section class="secs-footer">
+            <h3>رانندگان</h3>
+            <ul>
+                <li><a href="#">دانلود اپ سفیر</a></li>
+                <li><a href="#">ثبت نام راننده تاکسی اینترنتی</a></li>
+                <li><a href="#">پرسش‌های متداول سفیران</a></li>
+                <li><a href="#">شرایط و قوانین سفیران</a></li>
+                <li><a href="#">باشگاه سفیران</a></li>
+            </ul>
+        </section>
+
+        <section class="secs-footer">
+            <h3>کسب و کارها</h3>
+            <ul>
+                <li><a href="#">پنل سازمانی تپسی</a></li>
+                <li><a href="#">خرید کد اعتبار و تخفیف</a></li>
+                <li><a href="#">دریافت API</a></li>
+
+            </ul>
+        </section>
+
+        <section class="img-footer">
+            <div><img src="img/etehadiye.png" alt=""></div>
+            <div><img src="img/logo.png" alt=""></div>
+            <div><img src="img/logo (1).png" alt=""></div>
+        </section>
+
+        <div id="sec-i-hogogh-footer">
+            <p>تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
+            <ul>
+                <li><a href="#"><i class="	fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="	fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="	fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="	fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="	fab fa-telegram-plane"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

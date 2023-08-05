@@ -263,6 +263,7 @@ header{
 main{
     @include flex-column-center();
     width: 100%;
+    overflow-x: hidden;
     .sec-1{
         background-color: #fff;
         border-bottom: 1px solid #dadada;
@@ -281,6 +282,9 @@ main{
                     display: none;
                 }
             }
+        }
+        @media (max-width:568px) {
+            padding: 20px;
         }
         ::-webkit-scrollbar {
             background:transparent;
@@ -342,6 +346,8 @@ main{
                 line-height: 30px;
                 font-size: 17px;
                 width: 85%;
+                text-align: justify;
+
             }
             img{
                 width: 35vw;
@@ -354,6 +360,9 @@ main{
         flex-direction: row-reverse !important;
         @media (max-width:768px) {
             flex-direction: column !important;
+        }
+        @media (max-width:568px) {
+            padding: 20px;
         }
     }
     .sec-2 ,.sec-3{
@@ -371,6 +380,9 @@ main{
                 height: 40vw !important;
             }
         }
+        @media (max-width:568px) {
+            padding: 20px;
+        }
         .d-1-sec-2{
             h2{
                 font-size: 33px;
@@ -380,7 +392,11 @@ main{
                 font-size: 17px;
                 line-height: 28px;
                 margin: 30px 0 20px 0;
+                text-align: justify;
                 width: 90%;
+                @media (max-width:568px) {
+                    width: 100%;
+                }
             }
             div{
                 @include flex-row();
@@ -418,11 +434,18 @@ main{
         @media (max-width:1314px) {
             padding: 70px 60px;
         }
+        @media (max-width:568px) {
+            padding: 20px;
+        }
         .d-2-sec-2{
             margin-left: 50px;
         }
         .d-1-sec-2{
             margin-right: 50px;
+            @media (max-width:568px) {
+                margin-right: 0px;
+
+            }
             p{
                 width: 100%;
                 margin-bottom: 35px;
@@ -450,6 +473,9 @@ main{
             .khat-amodi{
                 display: none !important;
             }
+        }
+        @media (max-width:568px) {
+            padding: 20px;
         }
         .d-sec-4{
             @include flex-column-center();
@@ -494,6 +520,9 @@ main{
                 width: 90vw !important;
                 height: 45vw !important;
             }
+        }
+        @media (max-width:568px) {
+            padding: 20px;
         }
         .d-1-sec-5{
             width: 50%;
@@ -573,6 +602,9 @@ main{
             }
 
         }
+        @media (max-width:568px) {
+            padding: 20px;
+        }
         h1{
             font-size: 35px;
             margin-bottom:60px ;
@@ -586,6 +618,9 @@ main{
                 padding:25px;
                 margin: 0 2px;
                 border-radius: 4px;
+                @media (max-width:568px) {
+                    padding:25px 0;
+                }
                 &:hover{
                     box-shadow: 0.5px 0.5px 20px 0.5px #e9e9e9;
                 }
@@ -627,6 +662,9 @@ main{
         padding:25px 170px;
         @media (max-width:768px) {
             display: none;
+        }
+        @media (max-width:568px) {
+            padding: 20px;
         }
         h1{
             font-size: 35px;
@@ -800,3 +838,12 @@ footer{
 }
 
 
+.text-center{
+    text-align: center;
+}
+
+h1,h2{
+    @media (max-width:568px) {
+        font-size: 26px !important;
+    }
+}
